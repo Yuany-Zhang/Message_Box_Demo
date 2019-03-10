@@ -11,7 +11,7 @@ use chatcommunity
   `passwd` varchar(20) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 #插入新的用户
-insert into account values('brookzhyy','zhangyuanyi');
+insert into account values('test1','demo1');
 
 #创建管理员用户表
 CREATE TABLE `admin` (
@@ -20,7 +20,7 @@ CREATE TABLE `admin` (
   PRIMARY KEY (`adminid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 #插入管理员用户
-insert into admin values('Yuanyi','Brook_Zhang_1127');
+insert into admin values('test1','demo1');
 
 #创建邀请码表
 CREATE TABLE `invite` (
